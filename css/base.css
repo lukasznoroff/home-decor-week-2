@@ -1,0 +1,63 @@
+:root {
+	--bg-color: #586870;
+	--font-color: #FDFDFD;
+	--btn-color: #F2952F;
+	--col-text-bg-color: rgba(85, 85, 85, 0.8);
+	--col-image-bg-color: rgba(51, 51, 51, 0.62);
+	--mobile-bg-color: #3B3B3B;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--bg-color);
+	font-family: 'Poppins', sans-serif;
+}
+
+a, p, li, h1, h2, h3, h4, h5, h6 {
+	color: var(--font-color);
+	text-decoration-line: none;
+}
+
+.btn {
+	padding: 1vh 1.5vw;
+	font-size: clamp(.9rem, .8vw, 1.25rem);
+	border-radius: 2px;
+	text-decoration: none;
+	background-color: var(--btn-color);
+	box-shadow: 1px 1px 4px 1px rgb(1 1 1 / 25%);
+	transition: all .4s ease;
+	cursor: pointer;
+	outline: none;
+	border: 1px solid transparent;
+}
+
+.btn:hover {
+	border: 1px solid var(--mobile-bg-color);
+
+}
+
+.hamburger-menu, .hamburger {
+	display: none;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 90vw;
+	margin: auto;
+	border-top: 1px solid rgba(0, 0, 0, 0.27);
+	height: 8vh;
+}
+
+.fa-brands {
+	font-size: 20px;
+	color: var(--btn-color);
+}
+
+

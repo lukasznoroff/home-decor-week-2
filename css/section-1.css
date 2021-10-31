@@ -1,0 +1,48 @@
+.section-1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 90vh;
+	width: 90vw;
+	margin: auto;
+}
+
+.text-container {
+	height: 50vh;
+}
+
+.section-1-header {
+	font-size: 3vw;
+	font-weight: 300;
+	max-width: 20vw;
+}
+
+.decor-image {
+	width: 28vw;
+	width: 30vw;
+}
+
+@media screen and (max-width: 800px) {
+	
+	.section-1 {
+		display: block;
+	}
+
+	.text-container {
+		height: 200px;
+	}
+
+	.section-1-header {
+		display: flex;
+		align-items: center;
+		height: 250px;
+		font-size: 30px;
+		text-align: left;
+		max-width: 90vw;
+	}
+
+	.decor-image {
+		width: 90vw;
+
+	}
+}
